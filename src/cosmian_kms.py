@@ -23,7 +23,7 @@ from shared import Algorithm, split_list
 # This is the main entry point of the library
 #
 
-logger = logging.getLogger("comsian_kms")
+logger = logging.getLogger("cosmian_kms")
 slog = logging.LoggerAdapter(logger, {
     "size": 0,
     "request": 0,
